@@ -6,10 +6,9 @@ export default function Footer() {
 }
 
 const FooterStyled = styled.div`
-  position: absolute;
-  top: 92%;
-  left: 45%;
-  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 400;
   font-size: 15px;
   color: #545454;

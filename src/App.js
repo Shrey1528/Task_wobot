@@ -1,17 +1,14 @@
 import React from "react";
-import styled from "styled-components";
-import Body from "./components/Body";
 import Footer from "./components/Footer";
+import Form from "./components/Form";
 import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-    <AppStyled>
+    <div className="app">
       <Navbar />
-      <Body />
+      <Form />
       <Footer />
-    </AppStyled>
+    </div>
   );
 }
-
-const AppStyled = styled.div``;

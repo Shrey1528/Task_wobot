@@ -11,11 +11,10 @@ export default function Navbar() {
 }
 
 const NavbarStyled = styled.nav`
+  padding: 10px 10px;
   img {
-    position: absolute;
     width: 9%;
     height: 5%;
-    left: 6%;
-    top: 4%;
+    margin-left: 2rem;
   }
 `;
